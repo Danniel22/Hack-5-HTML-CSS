@@ -1,0 +1,84 @@
+body{
+    background: #5CE1E6;
+    margin: 0;
+    padding: 0;
+}
+
+div:first-child{
+    background: white;
+    width: 100px;
+    height: 253dvh;
+    left: 50px;
+    position: absolute;
+}
+
+#img1{
+    position: absolute;
+    left: 150px;
+    top: 0;
+    width: 520px;
+    height: 700px;
+}
+
+#img2{
+    position: absolute;
+    left: 669px;
+    top: 700px;
+    width: 520px;
+    height: 700px;
+}
+
+.cajatexto1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    left: 669px;
+    top: 0;
+    width: 518px;
+    height: 700px;
+    font: 50px 'Dela Gothic One', cursive;
+}
+
+.cajatexto1 p{
+    text-align: center;
+}
+
+.cajatexto2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    flex-direction: column;
+    left: 150px;
+    top: 700px;
+    width: 518px;
+    height: 700px;
+}
+
+.cajatexto2 p:first-child{
+    font: 50px 'Anonymous Pro', monospace;
+    font-weight: 800;
+    margin-left: 20px;
+    width: 450px;
+    line-height: 70px;
+}
+
+.cajatexto2 p:last-child{
+    font: 30px 'Anonymous Pro', monospace;
+    font-weight: 400;
+    margin-left: 20px;
+    width: 450px;
+    line-height: 40px;
+}
+
+span{
+    color: white;
+    font: 40px 'Anton', sans-serif;
+    position: absolute;
+    right: 180px;
+    bottom: -800px;
+    width: 120px;
+    text-align: center;
+    line-height: 50px;
+}
